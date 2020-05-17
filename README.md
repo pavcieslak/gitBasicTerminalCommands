@@ -15,16 +15,16 @@ Before doing anything, make sure you add your name and email address to Git. Tha
 - **git status** // Check status of working tree (staging area)
 - **git commit** // Commit changes in index
 
-Here you have to press I to be able to actually write something. To exit this editor, simply write :wq and press Enter.
+Here you have to press I to be able to write something. To exit this editor, simply write :wq and press Enter.
 
 - **git commit -m** // Commit changes in index and add a message
 - **git push** // Push to remote repository
 - **git pull** // Pull latest from remote repository
 - **git clone** // Clone repository into a new directory (current folder)
 
-## Additional usefull terminal comands
-- **touch <index.html>** // touch command creates files, in this case index.html
-- **touch .gitignore** // here we can specify which files we want git to ignore whilst adding to the staging area or commiting to our tree
+## Additional useful terminal commands
+- **touch <index.html>** // touch command creates files, in this case, index.html
+- **touch .gitignore** // here we can specify which files we want git to ignore whilst adding to the staging area or committing to our tree
 
 Inside .gitignore you simply add the files you want git to ignore by typing them like inline, one by one like this:
 
